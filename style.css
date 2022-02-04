@@ -1,0 +1,34 @@
+.weather {
+  color: white;
+  font-size: 30px;
+  background: linear-gradient(rgb(150, 150, 241), rgb(248, 158, 226));
+  width: 800px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-shadow: black 1px 0 5px;;
+  box-shadow: 7px 2px 2px rgb(87, 85, 85);
+  font-weight: 300;
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.weather div {
+  width: 350px;
+  text-align: center;
+}
+.temp{
+    font-size: 60px;
+    font-weight: bold;
+}
+.time{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.description{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 300;
+}
